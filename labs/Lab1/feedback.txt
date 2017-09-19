@@ -1,2 +1,0 @@
-You need to include the Java code with your submission.
-2.5) The total has to be the initial bill plus the tip
