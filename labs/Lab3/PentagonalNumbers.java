@@ -7,7 +7,7 @@ public class PentagonalNumbers {
 		System.out.println("The first 100 pentagonal numbers, ten per line: ");
 		for (int numbers = 1; numbers <= 100; numbers++) {
 			if (numbers % 10 == 0)
-				System.out.printf("%7d/n", + getPentagonalNumber(numbers));
+				System.out.printf("%7d/n", + getPentagonalNumber(numbers)); //JA: The newline charater is \n
 			else 
 				System.out.printf("%7d", getPentagonalNumber(numbers));
 		}

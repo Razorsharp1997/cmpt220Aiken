@@ -20,7 +20,7 @@ public class AverageOfPositiveAndNegativeNumbers {
 				if (value > 0) { 
 					positive++;
 					number++;
-					total += number;
+					total += number; // JA: this should be value
 				
 				} else if (value < 0) {
 					negative++;
@@ -29,7 +29,8 @@ public class AverageOfPositiveAndNegativeNumbers {
 				}
 				} while (value !=0);
 				
-				average = total / number * 1.0;
+				// JA: For this to work you need to enclose in ()
+				average = total / (number * 1.0); 
 				
 				System.out.println("The number of positives is " + positive);
 				System.out.println("The number of negatives is " + negative);

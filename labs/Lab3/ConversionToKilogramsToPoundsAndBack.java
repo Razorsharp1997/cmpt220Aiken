@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+// JA: You had to print the full table with the conversions
+// JA: You need a for loop with two indices
 public class ConversionToKilogramsToPoundsAndBack {
 
 	public static void main(String[] args) {
