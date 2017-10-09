@@ -10,8 +10,9 @@ public class Sorted {
 		for (int i = 0; i < list.length; i++) {
 			list[i] = input.nextInt();
 			
-		System.out.println("This list is " + (isSorted(list) ? "already " : "not ") + "sorted" );
+// JA		System.out.println("This list is " + (isSorted(list) ? "already " : "not ") + "sorted" );
 		}
+		System.out.println("This list is " + (isSorted(list) ? "already " : "not ") + "sorted" );
 	}
 
 	private static boolean isSorted(int[] list) {

@@ -23,6 +23,7 @@ public class PointsNearestToEachOther {
 			}
 		}
 		
+		// JA: You forgot to print the z coordinate
 		System.out.println("The closest two points are " + 
 				"(" + points[p1][0] + ", " + points[p1][1] + ") and (" +
 				points[p2][0] + ", " + points[p2][1] + ")");
