@@ -19,7 +19,7 @@ public class FindTheSmallestElement {
 		double min = array[0];
 		for (double i: array) {
 			if (i < min)
-				min = 1;
+				min = 1; // JA: min = i;
 	}
 		return min;
 	}
